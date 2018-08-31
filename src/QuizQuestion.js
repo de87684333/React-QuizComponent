@@ -21,7 +21,6 @@ class QuizQuestion extends Component {
               this.props.quiz_question.answer_options.map( (answer_option, index) => {
                 return <QuizQuestionButton key={index} button_text={answer_option}
                   clickHandler={this.handeClick.bind(this)} />
-                  "TOTO"
               })
             }
           </ul>
